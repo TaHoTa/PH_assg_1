@@ -6,12 +6,10 @@ body{
 .text_left{
     padding: 90px 0;
     display: flex;
-    border: 2px solid #786ed862;
 }
 
 .text_div{
     margin: auto;
-    border: 2px solid #73ad2162;
     width: 35%;
 }
 .text_div h1{
@@ -35,15 +33,43 @@ body{
 }
 .image_div{
     margin: auto;
-    border: 2px solid #73ad2162;
     width: 35%;
 }
 
 .image_div img{
     margin: auto;
-    border: 2px solid #73ad2162;
     width: 100%;
 }
+
+#three_box_div{
+    padding: 0px 20px;
+    display: flex;
+}
+.one_box{
+    width: 30%;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: #EDF5F6;
+}
+.sec{
+    background-color: #FFEEEE;
+}
+.third{
+    background-color: #FFF4D6;
+}
+
+#three_box h1{
+    font-size: 50px;
+    margin-left: 80px;
+}
+#three_box h3{
+    font-size: 30px;
+}
+#three_box {
+    font-size: 20px;
+}
+
 
 
 
